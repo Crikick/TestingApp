@@ -1,0 +1,21 @@
+<div class="">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Phone</th>
+        <th scope="col">Email</th>
+       
+    </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let Post of Posts">
+        <td scope="row"> {{Post.userId}} </td>
+        <td scope="row"> {{Post.id}} </td>
+        <td scope="row"> {{Post.title}} </td>
+        <td scope="row"> {{Post.body}} </td>
+       
+    </tr>
+    </tbody>
+  </table></div>

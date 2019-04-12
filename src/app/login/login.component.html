@@ -1,0 +1,26 @@
+<div class="center">
+<div class="container">
+<form [formGroup]="employeeForm" (ngSubmit)="onSubmit()">
+  <div class=" row form-group">
+    <div class="col-sm-4">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="text" class="form-control" id="InputEmail" formControlName="InputEmail"  >
+  </div>
+  </div>
+  <div class="row form-group">
+      <div class="col-sm-4">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="InputEmail1" formControlName="InputEmail1">
+  </div>
+</div>
+  <div class=" row form-group form-check">
+      <div class="col-sm-4">
+    <input type="checkbox" class="form-check-input" id="Check1" formControlName="Check1">
+    <label class="form-check-label" for="exampleCheck1">Keep me sign in</label>
+  </div>
+</div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+  <a > Create account</a>
+</form>
+</div>
+</div>
